@@ -34,12 +34,12 @@ void insertion_sort_list(listint_t **list)
 	listint_t *start;
 	listint_t *stop;
 
-	start = *list;
-	if (*list == NULL)
+	if (!list)
 		return;
 	if ((*list)->next == NULL)
 		return;
 
+	start = *list;
 	while (start != NULL)
 	{
 		stop = start->prev;
