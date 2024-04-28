@@ -51,6 +51,7 @@ In Bubble Sort algorithm,
 - traverse from left and compare adjacent elements and the higher one is placed at right side. 
 - In this way, the largest element is moved to the rightmost end at first. 
 - This process is then continued to find the second largest and place it and so on until the data is sorted.
+
 ![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526103842/1.webp "first iteration of bubble sort")
 
 ![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526103914/2.webp "second iteration of bubble sort")
@@ -162,6 +163,7 @@ Auxiliary Space: O(1)
 Is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 **Quick Sort Algorithm:**
+
 ![Alt text](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png "drawing explain the concept of algorithm")
 
 **Choice of Pivot:**
