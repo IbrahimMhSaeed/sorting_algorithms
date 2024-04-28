@@ -51,9 +51,9 @@ In Bubble Sort algorithm,
 - traverse from left and compare adjacent elements and the higher one is placed at right side. 
 - In this way, the largest element is moved to the rightmost end at first. 
 - This process is then continued to find the second largest and place it and so on until the data is sorted.
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526103842/1.webp "first iteration of bubble sort")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526103842/1.webp "first iteration of bubble sort")
 
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526103914/2.webp "second iteration of bubble sort")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526103914/2.webp "second iteration of bubble sort")
 
 **implementation of Bubble sort**
 ```
@@ -92,7 +92,7 @@ Is a simple sorting algorithm that works by iteratively inserting each element o
 - Continue this process, comparing each element with the ones before it and swapping as needed to place it in the correct position among the sorted elements.
 - Repeat until the entire array is sorted.
 
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20240408140301/Insertion-Sort.webp "Visualization of Insertion sort")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20240408140301/Insertion-Sort.webp "Visualization of Insertion sort")
 
 ```
 void insertionSort(int arr[], int n)
@@ -121,11 +121,11 @@ Auxiliary Space: O(1)
 
 Is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. 
 
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230524115038/1.webp "first iteration of selection sort searching for smallest element")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230524115038/1.webp "first iteration of selection sort searching for smallest element")
 
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526165135/2.webp "second itertion")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526165135/2.webp "second itertion")
 
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526165200/3.webp "third itertion")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526165200/3.webp "third itertion")
 
 **Implementation:**
 ```
@@ -162,7 +162,7 @@ Auxiliary Space: O(1)
 Is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 **Quick Sort Algorithm:**
-[!Alt text](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png "drawing explain the concept of algorithm")
+![Alt text](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png "drawing explain the concept of algorithm")
 
 **Choice of Pivot:**
 - Always pick the first element as a pivot.
@@ -170,11 +170,11 @@ Is a sorting algorithm based on the Divide and Conquer algorithm that picks an e
 - Pick a random element as a pivot.
 - Pick the middle as the pivot.
 
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526114635/1.webp "pointer i points to -1 and pointer j points to 10")
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526114837/2.webp "pointer i points to 10 and pointer i points ot 80")
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526114951/3.webp "pointer i points to 10 incremented by one and point to 80, j points to 30")
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526115052/4.webp "i points to 30, j points to 90")
-[!Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526115200/5.webp "swap pivot with i+1")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526114635/1.webp "pointer i points to -1 and pointer j points to 10")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526114837/2.webp "pointer i points to 10 and pointer i points ot 80")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526114951/3.webp "pointer i points to 10 incremented by one and point to 80, j points to 30")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526115052/4.webp "i points to 30, j points to 90")
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230526115200/5.webp "swap pivot with i+1")
 
 **Implementation:**
 ```
