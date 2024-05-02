@@ -42,7 +42,7 @@ size_t partition(int *arr, int low, int high, size_t size)
 				print_array(arr, size);
 		}
 	}
-	if ((i + 1) < high && arr[i] != arr[j])
+	if ((i + 1) != high && arr[i + 1] != arr[high])
 	{
 		swap(&arr[i + 1], &arr[high]);
 		print_array(arr, size);
